@@ -80,11 +80,11 @@ public class PlayerSelection {
             
             default:
                 position="Unknown";
-                System.out.println("“Player position not known");
+                System.out.println("Player position not known");
                 break; 
         }
         //lineup decision
-        if (category=="Prime Player" && weight<80 ){
+        if (category=="Prime player" && weight<80 ){
             decision=" Player in starting lineup";
         }
         else{
@@ -99,7 +99,7 @@ public class PlayerSelection {
         System.out.println(eligible);
 
         System.out.println("Player: "+name);
-        System.out.println ("Age: "+ age +category);
+        System.out.println("Age: " + age + " (" + category + ")");
         System.out.println("Height: "+m_to_cm);
         System.out.println("Weight: "+lbs_kgs);
         System.out.println("Jersey: "+ jersey_number);
